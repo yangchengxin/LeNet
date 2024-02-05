@@ -1,5 +1,4 @@
 # LeNet
-# Virtual Environment:
-<p align="center">  
+## Virtual Environment:
 pytorch >= 1.10  
-</p>   
+torchvision >= 0.11.0  
