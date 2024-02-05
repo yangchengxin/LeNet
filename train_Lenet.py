@@ -6,7 +6,7 @@ from Lenet_backbone import Lenet
 from torchvision import datasets, transforms
 
 
-device = torch.device("cuda:0")
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 class Config():
     batch_size = 128
